@@ -1,0 +1,97 @@
+Qu'est-ce que le logiciel libre ? 
+
+« Logiciel libre » [free software] désigne des logiciels qui respectent la liberté des utilisateurs. En gros, cela veut dire que les utilisateurs ont la liberté d'exécuter, copier, distribuer, étudier, modifier et améliorer ces logiciels. Ainsi, « logiciel libre » fait référence à la liberté, pas au prix1 (pour comprendre ce concept, vous devez penser à « liberté d'expression », pas à « entrée libre »). Pour bien montrer qu'il ne s'agit pas de gratuité, nous utilisons quelquefois en anglais l'expression libre software, qui emprunte au français ou à l'espagnol.
+
+Nous faisons campagne pour ces libertés parce que chacun les mérite. Avec ces libertés, les utilisateurs (à la fois individuellement et collectivement) contrôlent le programme et ce qu'il fait pour eux. Quand les utilisateurs ne contrôlent pas le programme, nous qualifions ce dernier de « non libre », ou « privateur ».2 Ce programme non libre contrôle les utilisateurs et son développeur le contrôle. Le programme devient donc l'instrument d'un pouvoir injuste.  
+
+Les quatre libertés essentielles
+
+Un programme est un logiciel libre si vous, en tant qu'utilisateur de ce programme, avez les quatre libertés essentielles :
+
+    la liberté d'exécuter le programme comme vous voulez, pour n'importe quel usage (liberté 0) ;
+    la liberté d'étudier le fonctionnement du programme, et de le modifier pour qu'il effectue vos tâches informatiques comme vous le souhaitez (liberté 1) ; l'accès au code source est une condition nécessaire ;
+    la liberté de redistribuer des copies, donc d'aider votre voisin (liberté 2) ;
+    la liberté de distribuer aux autres des copies de vos versions modifiées (liberté 3) ; en faisant cela, vous donnez à toute la communauté une possibilité de profiter de vos changements ; l'accès au code source est une condition nécessaire.
+
+Un programme est un logiciel libre s'il donne toutes ces libertés aux utilisateurs de manière adéquate. Dans le cas contraire, il est non libre. Bien que nous puissions faire une distinction entre différents schémas de distribution non libres, en quantifiant ce qui leur manque pour être libres, nous les considérons tous comme équivalents dans leur manque d'éthique.
+
+Dans chacun des scénarios, ces libertés doivent s'appliquer quel que soit le code que nous envisageons d'utiliser ou de pousser d'autres personnes à utiliser. Prenez par exemple un programme A qui lance automatiquement un programme B afin de gérer certaines situations. Si nous souhaitons distribuer A tel quel, cela implique que les utilisateurs auront besoin de B ; il nous appartient donc de juger si A et B sont tous deux libres. Cependant, si nous projetons de modifier A de telle sorte qu'il n'utilise pas B, alors seul A doit être libre ; B n'est pas pertinent dans ce cas.
+
+« Logiciel libre » ne signifie pas « non commercial ». Un logiciel libre doit permettre l'usage commercial, le développement commercial et la distribution commerciale. Le développement commercial de logiciel libre n'est plus l'exception ; de tels logiciels libres commerciaux sont très importants. Vous pouvez avoir payé pour obtenir une copie d'un logiciel libre ou vous pouvez l'avoir obtenu gratuitement. Mais quelle que soit la manière dont vous vous l'êtes procuré, vous avez toujours la liberté de copier et de modifier le logiciel et même d'en vendre des copies.
+
+La suite de cette page s'attache à clarifier certains détails sur ce qui fait que des libertés particulières sont adéquates ou non.
+La liberté d'exécuter le programme comme vous le souhaitez
+
+La liberté d'utiliser un programme est la liberté pour n'importe qui ou n'importe quelle organisation de l'utiliser sur n'importe quel système informatique, pour n'importe quelle tâche et sans être obligé de communiquer à ce sujet avec le développeur ou toute autre entité particulière. Dans cette liberté, ce qui compte est ce que veut faire l'utilisateur, pas le développeur ; en tant qu'utilisateur, vous êtes libre d'exécuter un programme comme bon vous semble et, si vous le redistribuez à quelqu'un d'autre, cette personne est libre de l'exécuter comme bon lui semble, mais vous n'êtes pas autorisé à lui imposer vos conditions.
+
+Que vous soyez libre d'exécuter le programme comme vous le souhaitez signifie que personne ne vous interdit ou ne vous empêche de le faire fonctionner. Cela n'a rien à voir avec telle ou telle fonctionnalité que possède le programme, ou avec le fait qu'il soit, ou non, techniquement capable de fonctionner dans un environnement donné ou utile à une activité informatique particulière.
+La liberté d'étudier le code source et de le modifier
+
+Afin que les libertés 1 et 3 (la liberté de faire des modifications et la liberté de publier les versions modifiées) aient un sens, vous devez avoir accès au code source. Ainsi, l'accès au code source est une condition nécessaire pour qu'un logiciel soit libre. Du code source rendu illisible [obfuscated] n'est pas du vrai code source et ne compte pas comme code source.
+
+La liberté 1 inclut la liberté d'utiliser votre version modifiée à la place de l'original. Si le programme est livré dans un produit conçu pour exécuter les versions modifiées de quelqu'un d'autre, mais pour refuser d'exécuter les vôtres – une pratique connue sous le nom de « tivoïsation », de « verrouillage » ou (dans la terminologie pernicieuse de ses partisans) de secure boot3 – la liberté 1 devient un simulacre vide de sens plutôt qu'une liberté concrète. Ces binaires ne sont pas libres, même si le code source à partir duquel ils ont été compilés l'est.
+
+Un moyen important de modifier un programme est de lui incorporer des modules ou des sous-programmes libres disponibles. Si la licence du programme indique que vous ne pouvez pas lui incorporer un module existant régi par une licence appropriée, par exemple si elle impose que vous soyez titulaire du copyright4 sur tout code que vous ajoutez, alors la licence est trop restrictive pour être qualifiée de libre.
+
+Qu'un changement constitue une amélioration ou non est subjectif. Si votre droit de faire des modifications se limite, en substance, aux changements que quelqu'un d'autre considère comme une amélioration, ce n'est pas un programme libre.
+La liberté de redistribuer si vous le souhaitez : exigences de base
+
+Avoir la liberté de distribution (libertés 2 et 3) signifie que vous êtes libre de redistribuer des copies, avec ou sans modification, gratuitement ou non, à tout le monde, partout. Être libre de faire tout cela signifie (entre autres) que vous n'avez pas à demander ni à payer pour en avoir la permission.
+
+Vous devez aussi avoir la liberté de faire des modifications et de les utiliser à titre privé dans votre travail ou vos loisirs, sans en mentionner l'existence. Si vous publiez vos modifications, vous n'êtes pas obligé de prévenir quelqu'un en particulier ou de le faire d'une manière particulière.
+
+La liberté 3 inclut la liberté de distribuer vos versions modifiées en tant que logiciel libre. Une licence libre peut également permettre de les distribuer sous d'autres formes ; en d'autres termes, elle n'a pas à être un copyleft5. Cependant, une licence qui impose que les versions modifiées soient non libres ne peut pas être qualifiée de licence libre.
+
+La liberté de redistribuer des copies doit inclure les formes binaires ou exécutables du programme, tout comme le code source, que ce soit pour les versions modifiées ou non modifiées du programme (diffuser des programmes sous une forme exécutable est nécessaire pour installer commodément les systèmes d'exploitation libres). Il y a une exception s'il n'existe aucun moyen de produire de version binaire ou exécutable pour un programme déterminé (puisque certains langages ne le permettent pas), mais vous devez avoir la liberté de distribuer des versions de ce type si vous trouvez ou si vous concevez un moyen d'en produire.
+Copyleft
+
+Certains types de règles sur la manière de distribuer le logiciel libre sont acceptables tant que ces règles ne rentrent pas en conflit avec les libertés fondamentales. Par exemple, le copyleft (pour résumer très simplement) est une règle qui établit que, lorsque vous redistribuez le programme, vous ne pouvez pas ajouter de restriction qui nie les libertés fondamentales des autres. Cette règle n'entre pas en conflit avec les libertés fondamentales ; en fait, elle les protège.
+
+Au projet GNU, nous utilisons le copyleft pour protéger juridiquement les quatre libertés de manière que chacun en bénéficie. Nous croyons qu'il y a de bonnes raisons de préférer le copyleft. Cependant, les logiciels libres non copyleftés sont éthiques également (consultez les catégories de logiciels libres pour une discussion des relations entre « logiciel libre », « logiciel copylefté », et encore d'autres catégories de logiciel).
+Règles concernant l'empaquetage et les détails de distribution
+
+Les règles concernant l'empaquetage des versions modifiées sont acceptables si elles ne limitent pas de manière substantielle votre liberté de les publier, ou votre liberté de créer et d'utiliser des versions modifiées pour votre usage privé. Il est ainsi acceptable que la licence vous impose de changer le nom de la version modifiée, d'enlever un logo, ou de marquer vos modifications comme étant de votre fait. Aussi longtemps qu'en pratique le poids de ces contraintes ne vous empêche pas de distribuer vos changements, elles sont acceptables. Vous avez déjà fait d'autres changements dans le programme, alors vous n'aurez pas de mal à en faire quelques-uns de plus.
+
+Une règle spécifiant que « si vous rendez votre version disponible comme ceci, vous devez aussi la rendre disponible comme cela » peut aussi être acceptable, sous les mêmes conditions. Serait par exemple acceptable une règle stipulant que, si vous avez distribué une version modifiée et qu'un ancien développeur en demande une copie, vous devez la lui envoyer (notez qu'une telle règle vous laisse néanmoins le choix de distribuer votre version ou non). Les règles qui exigent la fourniture du code source aux utilisateurs pour les versions que vous mettez à la disposition du public sont également acceptables.
+
+Un problème particulier apparaît lorsqu'une licence exige qu'on change le nom sous lequel le programme sera invoqué par d'autres programmes. C'est effectivement gênant pour publier une version modifiée de manière qu'elle puisse remplacer l'original quand il est invoqué par ces autres programmes. Ce type d'exigence n'est acceptable que s'il existe une possibilité de spécifier le nom du programme original comme alias de la version modifiée.
+Contrôle de l'exportation
+
+Parfois les règles du contrôle des exportations, ou bien des sanctions économiques, peuvent restreindre votre liberté de distribuer des copies de programmes à l'étranger. Les développeurs de logiciels n'ont pas le pouvoir d'éliminer ou de passer outre ces restrictions, mais ce qu'ils peuvent et doivent faire, c'est refuser de les imposer comme conditions à l'utilisation du programme. De cette manière, les restrictions n'affecteront pas les activités et les personnes se trouvant hors de la juridiction des gouvernements concernés. Ainsi, les licences de logiciel libre ne doivent pas imposer d'obéir à un règlement sur l'exportation comme préalable à l'une des libertés essentielles, quelle qu'elle soit, dans la mesure où ce règlement a une incidence pratique.
+
+Il est acceptable de mentionner simplement l'existence du règlement sur l'exportation sans en faire une clause de la licence elle-même, car cela n'impose pas de restriction aux utilisateurs. Si de fait une règle d'exportation est sans incidence sur le logiciel libre, l'intégrer à une clause n'est pas un véritable problème ; toutefois, c'est un problème potentiel car une future modification du droit de l'exportation pourrait faire que cette exigence ait des conséquences pratiques et donc rende le logiciel non libre.
+Considérations juridiques
+
+Pour que ces libertés soient effectives, elles doivent être permanentes et irrévocables tant que vous n'avez rien fait de mal ; si le développeur du logiciel a le droit de révoquer la licence ou de lui ajouter rétroactivement des clauses restrictives, sans que vous ayez fait quoi que ce soit de mal pour le justifier, le logiciel n'est pas libre.
+
+Une licence libre ne peut pas exiger qu'on se conforme à la licence d'un programme non libre. Ainsi par exemple, si une licence exige le respect des licences de « tous les programmes que vous utilisez », et que l'utilisateur exécute des programmes non libres, cela l'obligerait à respecter les licences de ces programmes non libres, et rendrait par conséquent la licence non libre.
+
+Il est acceptable qu'une licence libre précise la juridiction dont le droit s'applique, la cour compétente pour régler les litiges, ou bien les deux.
+Licences basées sur des contrats
+
+La plupart des licences de logiciel libre sont basées sur le copyright, or les types d'exigences que le copyright peut imposer ont des limites. Si une licence basée sur le copyright respecte la liberté de la manière décrite plus haut, il est peu probable qu'elle pose un problème d'un genre totalement imprévu (bien que cela arrive parfois). Cependant, certaines licences de logiciel libre sont basées sur le droit du contrat, et les contrats peuvent imposer un éventail bien plus large de restrictions. Cela signifie qu'il y a de nombreuses possibilités pour qu'une licence de ce type puisse restreindre de manière inacceptable la liberté des utilisateurs et ainsi devenir non libre.
+
+Nous ne pouvons pas passer en revue tout ce qui pourrait se passer. Si une licence basée sur un contrat restreint l'utilisateur d'une manière inhabituelle à laquelle les licences basées sur le copyright ne peuvent pas se conformer, et qui n'est pas mentionnée ici comme légitime, nous devrons y réfléchir et nous conclurons probablement qu'elle n'est pas libre.
+Utilisez les mots justes pour parler du logiciel libre
+
+Quand vous parlez de logiciel libre, il est préférable de ne pas utiliser de termes comme « donner » ou « gratuit », car ils laissent supposer que la finalité du logiciel libre est le prix et non la liberté. Certains termes répandus comme « piratage » comportent des idées auxquelles nous espérons que vous n'adhérerez pas. Lisez « Termes prêtant à confusion, que vous devriez éviter », un essai sur l'utilisation de ces termes. Nous avons aussi une liste de traductions correctes de free software dans de nombreuses langues.
+Comment nous interprétons ces critères
+
+Enfin, notez que des critères comme ceux qui sont développés dans la présente définition du logiciel libre demandent une réflexion sérieuse quant à leur interprétation. Pour décider si une licence de logiciel particulière peut être qualifiée de libre, nous la jugeons sur ces critères pour déterminer si elle convient à leur esprit tout comme à leur formulation précise. Si une licence inclut des restrictions inacceptables, nous la rejetons même si nous n'avons pas anticipé le problème dans ces critères. Quelquefois les exigences d'une licence soulèvent un problème qui nécessite des réflexions intenses, y compris des discussions avec un juriste, avant que nous puissions décider si l'exigence est acceptable. Quand nous arrivons à une conclusion concernant un nouveau problème, il est fréquent que nous mettions à jour ces critères pour qu'on sache plus facilement pourquoi telle licence s'y conforme, ou non.
+Où trouver de l'aide au sujet des licences libres
+
+Si vous voulez savoir si une licence particulière peut être qualifiée de « libre », reportez-vous à notre liste de licences. Si la licence qui vous intéresse ne fait pas partie de la liste, vous pouvez nous demander des précisions en envoyant un courriel à <licensing@gnu.org>.
+
+Si vous envisagez d'écrire une nouvelle licence, veuillez auparavant contacter la Free Software Foundation, en écrivant à l'adresse ci-dessus. La prolifération de licences de logiciel libre différentes les unes des autres implique un surcroît de travail pour les utilisateurs voulant comprendre ces licences ; nous pouvons vous aider à trouver une licence de logiciel libre existante qui réponde à vos besoins.
+
+Si ce n'est pas possible, si vous avez vraiment besoin d'une nouvelle licence, avec notre aide vous pouvez faire en sorte que cette licence soit vraiment une licence de logiciel libre, et éviter divers problèmes pratiques.
+Au-delà du logiciel
+
+Les manuels des logiciels doivent être libres, pour les mêmes raisons que les logiciels doivent être libres, et parce que les manuels font en fait partie des logiciels.
+
+Les mêmes arguments peuvent aussi s'appliquer à d'autres types d'œuvres à finalité pratique, c'est-à-dire des œuvres qui intègrent de la connaissance utile, tels que le matériel pédagogique et les ouvrages de référence. Wikipedia en est l'exemple le plus connu.
+
+Tout type d'œuvre peut être libre : la définition du logiciel libre a été étendue à la définition des œuvres culturelles libres, applicable à tout type d'œuvre.
+Open Source ?
+
+Un autre groupe utilise le terme « open source » pour exprimer quelque chose de proche, mais pas identique au « logiciel libre ». Nous préférons le terme « logiciel libre ». En effet, une fois qu'on a compris que ce terme se rapporte à la liberté plutôt qu'au prix, il appelle la notion de liberté. Le mot « open » ne renvoie jamais à la liberté. 
