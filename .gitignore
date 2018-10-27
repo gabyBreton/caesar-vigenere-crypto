@@ -1,0 +1,11 @@
+#Ignore all
+*
+
+# Unignore all dirs (needed!)
+!*/
+
+# Unignore good files
+!*.java
+!*.txt
+!*.md
+!.gitignore
